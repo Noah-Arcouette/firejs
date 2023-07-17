@@ -1,0 +1,15 @@
+{
+	"watch": [
+		"module/",
+		"server/",
+		"template/",
+		"script/",
+		"routes",
+		"index.js"
+	],
+	"ext": "*",
+	"verbose": true,
+	"pollingInterval": 100,
+	"legacyWatch": true,
+	"exec": "sh ./script/startup"
+}

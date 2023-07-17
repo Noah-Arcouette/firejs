@@ -1,0 +1,58 @@
+<html>
+	<head>
+		<? _head_html(req, res); ?>
+	</head>
+	<body>
+		<h1>Welcome to 
+			<a href="<? res.echo(getProjectURL()); ?>" class="firejs">Fire JS</a>
+		</h1>
+
+		<h2>Ready To Use</h2>
+
+		<p>Ready to use out of the box</p>
+		<p>Just `npm start' and it's ready to go</p>
+		<p>Any configuration you want is in `conf.json'</p>
+		<p>And the server rebuilds on updates</p>
+
+		<h2>Simple</h2>
+
+		<p>Escapable files in `/template/'</p>
+		<p>Static files in `/static/'</p>
+		<p>Helper functions and actions in `/module/'</p>
+		<p>Routes in `/routes'</p>
+		<p>Required packages and your configuration for them in `/require.js'</p>
+		<p>Add your own compiler for sass, typescript, etc in the `./script/startup' file so they rebuild on updates, don't forget to add, or change, the directory in nodemon</p>
+		<p>Or modify the server through `index.js' and the `/server/' directory</p>
+
+		<h2>PHP but better</h2>
+
+		<p>Like PHP you can escape to server side in any template file</p>
+		<p>But instead of PHP you use NodeJS</p>
+		<p>You can write to the file from server side with `res.echo(data);'</p>
+		<p>From server side you have access to other templates and modules</p>
+		<p>You also have access to the ExpressJS request and response, have a look at `package.json' to see the included middleware</p>
+		<p>Include templates by running them, `template(req, res);'</p>
+		<p>And use modules as you define them</p>
+
+		<h2>The Generated Files</h2>
+
+		<p>The `/src/' directory is where your templates compile to</p>
+		<p>`/router.js' is where your routes compile to actual code</p>
+		<p>`/system.js' is the amalgamation of `require.js', `/module/', and `/src'; this allows you not to need the NodeJS require api when accessing you own code</p>
+
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<? _footer_html(req, res); ?>
+	</body>
+</html>

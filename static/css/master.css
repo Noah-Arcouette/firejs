@@ -1,0 +1,59 @@
+:root {
+	--bg: #08090C;
+	--cg: #EE5622;
+	--white: #E7E9EF;
+}
+
+* {
+	background-color: transparent;
+	color:            var(--cg);
+
+	font-family: sans-serif;
+}
+
+body {
+	background-color: var(--bg);
+	position:         relative;
+	margin:           0;
+	padding: 1rem;
+}
+
+h1 {
+	font-size: 2.6rem;
+}
+
+h2 {
+	font-size: 2.2rem;
+}
+
+p {
+	font-size: 1.5rem;
+}
+
+a.firejs {
+	text-decoration: none;
+	padding: 0.5rem;
+
+	box-shadow:    var(--cg) 0 0 16px 16px;
+	border-radius: 50px;
+	border:        none;
+
+	background: var(--cg);
+	color:      var(--white);
+}
+
+footer {
+	background-color: var(--white);
+	width: 100%;
+
+	position: absolute;
+	bottom:   0;
+	left:     0;
+
+	padding: 1rem;
+}
+
+footer a {
+	padding: 0.1rem 2rem 0.1rem 2rem;
+	color:   var(--bg);
+}

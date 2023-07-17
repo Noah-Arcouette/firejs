@@ -1,0 +1,19 @@
+#!/bin/sh
+
+set -e
+
+echo "Compiling Router..."
+
+python3 ./script/compileRouter.py
+
+echo "Compiling Templates..."
+
+python3 ./script/compileTemplates.py
+
+echo "Building System.js"
+
+python3 ./script/catSystem.py
+
+echo "Starting..."
+
+node .

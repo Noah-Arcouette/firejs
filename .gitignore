@@ -1,0 +1,8 @@
+# NodeJS
+node_modules/
+package-lock.json
+
+# FireJS
+router.js
+system.js
+src/
