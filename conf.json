@@ -3,10 +3,6 @@
 		"ip": "0.0.0.0",
 		"port": 8000
 	},
-	"admin": {
-		"username": "root",
-		"password": "password"
-	},
 	"rateLimit": {
 		"windowMs": 300000,
 		"max": 500,
@@ -41,5 +37,13 @@
 			"'unsafe-eval'"
 		],
 		"upgradeInsecureRequests": null
+	},
+	"session": {
+		"secret": "Server Secret",
+		"resave": false,
+		"saveUninitialized": true,
+		"cookie": {
+			"secure": true
+		}
 	}
 }

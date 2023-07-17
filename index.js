@@ -9,6 +9,7 @@ const helmet      = require("helmet");
 const cors        = require("cors");
 const rateLimit   = require("express-rate-limit");
 const bodyParser  = require("body-parser");
+const session     = require("express-session");
 
 const conf = require("./conf.json");
 
@@ -25,6 +26,7 @@ app.use(bodyParser.json(conf.bodyParser));
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(require("./server/echo.js"));
 app.use("/static/", express.static("./static/"));
+app.use(session(conf.session));
 
 require("./router.js")(app, conf);
 
