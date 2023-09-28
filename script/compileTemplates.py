@@ -30,7 +30,7 @@ def compileTemp (name, infile, outfile):
 	with open(infile, "r") as f:
 		temp = f.read()
 
-	data  = f"function {name} (req, res)\n"
+	data  = f"async function {name} (req, res)\n"
 	data += "{\n"
 
 	buff    = ""
