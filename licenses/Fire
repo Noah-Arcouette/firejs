@@ -1,0 +1,85 @@
+Copyright (c) 2023 Noah Otto Robert Arcouette
+
+Fire License 1.0
+An open source license designed for web-sites and online security.
+
+THIS LICENSE DOES NOT INCLUDE LIABILITY OR WARRANTY.
+
+Definitions
+===========
+
+This Software : Any copy-writable data under this license. This includes
+modified, or verbatim, source code files.
+
+Instance of This Software : A running process of This Software.
+
+You : Anyone obtaining a copy of This Software.
+
+Anyone : Anyone obtaining, accessing, or using This Software, or an Instance of
+This Software.
+
+User : Anyone accessing or using This Software, or an Instance of This Software.
+
+User Data : Any data given by a User to an Instance of This Software. The owner
+of this data is the User who gave it.
+
+Verified Notification : Any form of notification that can guaranty that the
+User in question has read the entire message. A Verified Notification must
+explain what is happening to the User Data in question. Verified Notifications
+must only be sent when an Instance of This Software tries to delete, or
+restrict, User Data without the Users knowledge.
+
+Permitted
+=========
+
+This license permits the following ONLY IF the Conditions are met.
+
+1. Modification : You may modify, and/or add to, This Software.
+
+2. Redistribution : You may distribute This Software anywhere.
+
+3. Use : Anyone may use This Software without any restrictions.
+( See Condition 7. )
+
+4. Commercial Use : You may host an Instance of This Software for commercial
+purposes.
+
+Conditions
+==========
+
+The following Conditions may not be broken under any circumstance, but there
+are circumstances where they do not apply.
+
+1. Free : This Software, and license, must always be obtainable without payment
+or collection of data; from any Instance of This Software. The original source
+of This Software must be obtainable from any distribution.
+
+2. Decent : A copy of this unmodified license must be present in any
+distribution of This Software. Any modification or addition to This Software
+must be licensed under this license. Data gathered, or generated, from an
+Instance of This Software may be under a separate license.
+
+3. Impersonation : The original source, and author(s), of This Software must
+not be misrepresented. Altered distributions must be stated as such.
+
+4. Author Protection : You may not hold the author(s) of This Software liable
+to any possible damage caused by This Software, without an explicitly stated
+warranty or liability.
+
+5. User Protection : This Software, or an Instance of This Software, may not
+hold any User Data under restriction from the User who gave it. A User must
+be able to gather their data without any restriction for seven weeks after a
+Verified Notification, or forever without a Verified Notification. This
+Condition does not apply when the User Data in question is illegal by the
+country hosting the Instance of This Software, or if the User knowingly deletes,
+or restricts, their data. This Condition DOES apply if the User Data in question
+is under a separate license.
+
+6. Ownership : Patents, and trademarks, may not be put on This Software.
+
+7. Access : An account, subscription, query, or paid service MUST NOT BE
+REQUIRED to use This Software. Data gathered, generated, or under a separate
+license does not apply to this Condition.
+
+8. Terms Of Service : Any terms of service applied to This Software or an
+Instance of This Software must comply with this license.
